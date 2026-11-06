@@ -68,7 +68,7 @@ The algorithm shifts event coordinates based on their timestamps ($t$) relative 
 
 ### Accumulation & Polarity
 Events are accumulated onto a 2D grid. The contribution of each event is weighted by its polarity ($p$) using the `p_pos_neg` parameter. The weight $w$ is calculated as:
-$$w = (p\__pos\__neg[1] - p\_pos\_neg[0]) \cdot p + p\_pos\_neg[0]$$
+w = (p_pos_neg[1] - p_pos_neg[0]) · p + p_pos_neg[0]
 
 ---
 
